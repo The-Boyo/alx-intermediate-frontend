@@ -1,0 +1,13 @@
+How to Install Sass
+
+Step 1
+I installed Node version 20.16 on my machine by downloading it on the official node website
+
+Step 2
+Confirm Node installation by running node -V command on the command line. Should output the installed node version.
+
+Step 3
+I installed sass using the npm package by running the command npm install -g sass on the command line.
+
+Step 4
+Confirm the node version installed by running the command sass ---version on the terminal.
