@@ -1,12 +1,12 @@
-@mixin theMargin($margin) {
-	margin-left: $margin;
-	margin-right: $margin;
+@mixin theMargin($left, $right) {
+	margin-left: $left;
+	margin-right: $right;
 }
 
 body {
-	@include theMargin(10px);
+	@include theMargin(10px, 10px);
 }
 
 div {
-	@include theMargin(15px);
+	@include theMargin(15px, 15px);
 }
